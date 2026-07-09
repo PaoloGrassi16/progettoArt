@@ -1,0 +1,2 @@
+"""Real-world MusicalAI scenarios."""
+

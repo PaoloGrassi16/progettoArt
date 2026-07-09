@@ -1,0 +1,16 @@
+{
+  "name": "Co-pilota creativo per produzione musicale",
+  "target_genre": "hiphop",
+  "duration_seconds": 8.0,
+  "confidence_threshold": 0.82,
+  "prompt": "Genera texture e sample inediti con imperfezioni controllate da estetica Lo-Fi/Glitch Art.",
+  "controls": {
+    "requested_style": "lofi_glitch",
+    "producer_target": "hiphop",
+    "novelty": 0.7,
+    "glitch_amount": 0.64,
+    "warmth": 0.68,
+    "export_stems": true
+  }
+}
+

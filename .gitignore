@@ -1,0 +1,16 @@
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+data/
+runs/
+checkpoints/
+outputs/generated/
+*.wav
+*.mp3
+*.flac
+*.pt
+*.pth
+

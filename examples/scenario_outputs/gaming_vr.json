@@ -1,0 +1,16 @@
+{
+  "name": "Soundtrack adattiva per media interattivi",
+  "target_genre": "disco",
+  "duration_seconds": 12.0,
+  "confidence_threshold": 0.88,
+  "prompt": "Genera un loop dinamico coerente con lo stato di gioco, senza materiale coperto da copyright.",
+  "controls": {
+    "environment": "vr_arena",
+    "interaction_intensity": 0.8,
+    "target_style": "electronic",
+    "rhythmic_density": 0.83,
+    "suggested_bpm": 134,
+    "seamless_loop": true
+  }
+}
+

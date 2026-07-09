@@ -1,0 +1,16 @@
+{
+  "name": "Mascheramento acustico e musicoterapia ambientale",
+  "target_genre": "classical",
+  "duration_seconds": 30.0,
+  "confidence_threshold": 0.88,
+  "prompt": "Genera un soundscape rilassante che attenui picchi casuali di rumore ambientale e mantenga bassa densita' ritmica.",
+  "controls": {
+    "setting": "urban_waiting_room",
+    "target_style": "ambient",
+    "noise_level": 0.65,
+    "masking_strength": 0.73,
+    "low_frequency_softening": 0.48,
+    "avoid_transients": true
+  }
+}
+

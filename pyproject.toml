@@ -1,0 +1,33 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "musicalai"
+version = "0.1.0"
+description = "Framework neurale per percezione estetica e generazione procedurale di soundscapes."
+requires-python = ">=3.10"
+readme = "README.md"
+authors = [
+  { name = "Paolo Grassi" },
+  { name = "Daniele Cerriti" }
+]
+dependencies = [
+  "numpy>=1.24",
+  "pandas>=2.0",
+  "librosa>=0.10",
+  "soundfile>=0.12",
+  "matplotlib>=3.8",
+  "scikit-learn>=1.4",
+  "torch>=2.2",
+  "torchaudio>=2.2",
+  "tqdm>=4.66"
+]
+
+[project.optional-dependencies]
+pdf = ["pypdf>=4.0", "reportlab>=4.0"]
+dev = ["pytest>=8.0", "ruff>=0.4"]
+
+[tool.setuptools.packages.find]
+include = ["musicalai*"]
+
