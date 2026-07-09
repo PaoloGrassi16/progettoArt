@@ -14,21 +14,7 @@ Questo repository implementa:
 - ricostruzione audio con Griffin-Lim;
 - tre scenari reali: Gaming/VR, Pro-Audio e Musicoterapia Ambientale.
 
-## Installazione
 
-```bash
-python -m venv .venv
-.venv\Scripts\activate
-pip install -r requirements.txt
-```
-
-Su macOS/Linux:
-
-```bash
-python -m venv .venv
-source .venv/bin/activate
-pip install -r requirements.txt
-```
 
 ## Dataset
 
@@ -85,17 +71,6 @@ python -m musicalai.scenarios.therapy_masking --noise-level 0.65 --target ambien
 
 Gli output JSON di esempio sono in `examples/scenario_outputs/`.
 
-## Pubblicazione e PDF
-
-I passaggi per pubblicare il progetto sono in `docs/GITHUB_PUBLICATION.md`.
-Dopo aver ottenuto l'URL GitHub, puoi inserirlo nel PDF originale con lo script:
-
-```bash
-python scripts/add_github_link_to_pdf.py ^
-  --input "C:\Users\furtr\Downloads\progettoArt (1).pdf" ^
-  --output "C:\Users\furtr\Documents\Codex\2026-07-09\de\outputs\progettoArt_with_github.pdf" ^
-  --github-url "https://github.com/PaoloGrassi16/progettoArt.git"
-```
 
 ## Struttura
 
