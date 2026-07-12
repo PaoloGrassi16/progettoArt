@@ -18,8 +18,8 @@ Questo repository implementa:
 
 ## Dataset
 
-Il progetto e' pensato per dataset organizzati per cartelle di genere, ad esempio
-GTZAN:
+Il progetto e' pensato per dataset organizzati per cartelle di genere; nel nostro caso è stato utilizzato
+il dataset GTZAN:
 
 ```text
 data/genres_original/
